@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func aa(args ...int){
+	fmt.Println(args)
+}
+
 func main(){
 
 	var a[3][4]int
@@ -16,4 +20,8 @@ func main(){
 		}
 		fmt.Printf("\n")
 	}
+
+	aa()
 }
+
+
